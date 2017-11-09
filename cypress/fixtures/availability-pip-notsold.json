@@ -19,7 +19,7 @@
         "sellerId": "0",
         "rollback": false,
         "date": "",
-        "status": "Available",
+        "status": "NotSold",
         "eligible": false,
         "sellerName": "Walmart",
         "asAdvertised": false

@@ -2,12 +2,12 @@
   "6000002586022": {
     "online": [
       {
-        "maxRegularPrice": 1200.00,
-        "minRegularPrice": 1200.00,
+        "maxRegularPrice": 0.00,
+        "minRegularPrice": 0.00,
         "pricePerUnit": "#1 dart/champion",
         "mapPrice": 0,
-        "minCurrentPrice": 1000.99,
-        "maxCurrentPrice": 1000.99,
+        "minCurrentPrice": 7.98,
+        "maxCurrentPrice": 7.98,
         "inventory": 6984,
         "sku": "127191",
         "clearance": false,
@@ -18,8 +18,8 @@
         "limitedStock": false,
         "sellerId": "0",
         "rollback": false,
-        "date": "",
-        "status": "Available",
+        "date": "2018-12-31T00:00:00-08:00",
+        "status": "AcceptingPreorder",
         "eligible": false,
         "sellerName": "Walmart",
         "asAdvertised": false
