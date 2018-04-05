@@ -1,13 +1,13 @@
 it('Visits the cbc', () => {
     cy.server()
     cy.route(mockAvailabilityCall('test'))
-    cy.visit('https://cbc.ca').get('.cardRegular.sclt-featuredcard1').click()
-    cy.contains('palak');
-  })
+    cy.visit('http://feed.cbc.ca/cookies/settings')
+})
 
   function mockAvailabilityCall(fixture) {
         return {
             method: 'GET',
-            url: 'aggregate_api/v1/items',
+            url: 'cookie-jar/api/cookies/list',
             response: `fixture:../fixtures/${fixture}`
         }
+    }
