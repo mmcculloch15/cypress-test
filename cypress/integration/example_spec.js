@@ -24,7 +24,7 @@ describe('Kitchen Sink', function(){
 
     // https://on.cypress.io/title
     cy.title().should('include', 'Kitchen Sink')
-    //   ↲               ↲            ↲
+    //   ↲ * 1 1        0             ↲            ↲
     // subject        chainer      value
   })
 
